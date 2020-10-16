@@ -1,6 +1,6 @@
 
 # This function will create a Pareto diagram based on the array parameter
-createPareto <- function (array_to_analyze, title){
+createBarplot <- function (array_to_analyze, title){
   
   # Ordering 
   ari_ordered <- order(array_to_analyze)
@@ -12,4 +12,5 @@ createPareto <- function (array_to_analyze, title){
   
 }
 
-createPareto(dati$`Binge drinking`, "Barplot Binge Drinking 2019")
+createBarplot(dati$`Binge drinking`, "Barplot Binge Drinking 2019")
+abline(h=mean(dati$`Binge drinking`) + 100)
