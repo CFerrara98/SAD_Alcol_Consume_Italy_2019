@@ -18,4 +18,3 @@ b <- barplot ( t(data.matrix(orderedDF)), beside = TRUE,
         main="barplot di confronto (consumo moderato - bingedrinking) in ordine crescente con segmenti residui",
           col =  c(" green ", "red") , rownames = dati$Regioni[order(dati$`Binge drinking`)], las=2, names = dati$Regioni[order(dati$`Consumo moderato`)])
 
-
