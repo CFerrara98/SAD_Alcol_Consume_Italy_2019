@@ -20,7 +20,7 @@ medcamp
 
 a2 <- n
 
-a1 <- (2 * n * medcamp + zalpha ^2)
+a1 <- - (2 * n * medcamp + zalpha ^2)
 
 a0 <- n * medcamp^2
 
